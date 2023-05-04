@@ -355,3 +355,4 @@ C:\Users\renan\OneDrive\Área de Trabalho\ProjetosC-_ASP.NET\SquadManager\obj\De
 C:\Users\renan\OneDrive\Área de Trabalho\ProjetosC-_ASP.NET\SquadManager\obj\Debug\net5.0\ref\SquadManager.dll
 C:\Users\renan\OneDrive\Área de Trabalho\ProjetosC-_ASP.NET\SquadManager\obj\Debug\net5.0\SquadManager.pdb
 C:\Users\renan\OneDrive\Área de Trabalho\ProjetosC-_ASP.NET\SquadManager\obj\Debug\net5.0\SquadManager.genruntimeconfig.cache
+C:\Users\renan\OneDrive\Área de Trabalho\ProjetosC-_ASP.NET\SquadManager\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
