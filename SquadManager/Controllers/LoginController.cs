@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SquadManager.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,14 @@ namespace SquadManager.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            UserViewModel user = new UserViewModel();
+            return View("Index", user);
+        }
+        [HttpPost]
+        public IActionResult Test(UserViewModel user)
+        {
+            user.email = "email enviado";
+            return View("Index", user);
         }
     }
 }
