@@ -31,3 +31,5 @@ C:\Users\renan\OneDrive\Área de Trabalho\ProjetosC-_ASP.NET\API\obj\Debug\net5.
 C:\Users\renan\OneDrive\Área de Trabalho\ProjetosC-_ASP.NET\API\obj\Debug\net5.0\ref\API.dll
 C:\Users\renan\OneDrive\Área de Trabalho\ProjetosC-_ASP.NET\API\obj\Debug\net5.0\API.pdb
 C:\Users\renan\OneDrive\Área de Trabalho\ProjetosC-_ASP.NET\API\obj\Debug\net5.0\API.genruntimeconfig.cache
+C:\Users\renan\OneDrive\Área de Trabalho\ProjetosC-_ASP.NET\API\bin\Debug\net5.0\API.xml
+C:\Users\renan\OneDrive\Área de Trabalho\ProjetosC-_ASP.NET\API\obj\Debug\net5.0\API.xml
