@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
+    [ApiController, Route("api/[controller]")]
+    [Consumes("application/json")]
     public class UserController : ControllerBase
     {
+        [HttpGet]
         public IActionResult Login(string username, string password)
         {
             return Ok(new { response = "Está Logado"});

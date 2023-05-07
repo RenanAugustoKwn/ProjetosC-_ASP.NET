@@ -19,10 +19,10 @@
     },
     "API": {
       "commandName": "Project",
-      "dotnetRunMessages": "true",
+      "dotnetRunMessages": true,
       "launchBrowser": true,
-      "launchUrl": "user",
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000;https://localhost:44334",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
