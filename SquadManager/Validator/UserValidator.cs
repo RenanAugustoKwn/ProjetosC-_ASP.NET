@@ -11,7 +11,8 @@ namespace SquadManager.Validator
     {
         public UserValidator()
         {
-            RuleFor(user => user.email).NotNull();
+            RuleFor(user => user.email).NotNull().WithMessage("Email Vázio");
+            RuleFor(user => user.email).EmailAddress().WithMessage("Email Inválido");
             RuleFor(user => user.passaword).NotNull();
         }
 

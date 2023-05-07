@@ -15,7 +15,6 @@ namespace SquadManager.Controllers
         {
             UserViewModel user = new UserViewModel();
             UserValidator validator = new UserValidator();
-
             ValidationResult results = validator.Validate(user);
             if(!results.IsValid)
             {
