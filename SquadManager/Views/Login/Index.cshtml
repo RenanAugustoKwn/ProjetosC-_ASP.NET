@@ -2,17 +2,19 @@
 @{
     Layout = null;
 }
-<link rel="stylesheet" href="~/css/login.css"/>
+<link rel="stylesheet" href="~/css/login.css" />
 <section>
-        <h1>Autenticacao</h1>
+    <h1>Autenticacao</h1>
     <form action="/Login/Test" method="post">
 
-        <input type="text" name="email" value="@Model.email" placeholder="Username/e-mail"/>
-        <input type="password" name="password" value="@Model.passaword" placeholder="Senha"/>
+        <input type="text" id="email" name="email" value="@Model.email" placeholder="Username/e-mail" />
+        <input type="password" id="password" name="password" value="@Model.password" placeholder="Senha" />
         <a href="#">Esqueceu a senha?</a>
-        <button type ="submit">Login</button>
+        <button type="submit" onclick="Login(event);">Login</button>
 
     </form>
 
-        <label>Não tem conta?<a href="#">Crie aqui</a></label>
+    <label>Não tem conta?<a href="#">Crie aqui</a></label>
 </section>
+<script src="~/js/login.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>

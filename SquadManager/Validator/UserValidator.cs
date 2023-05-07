@@ -13,7 +13,7 @@ namespace SquadManager.Validator
         {
             RuleFor(user => user.email).NotNull().WithMessage("Email Vázio");
             RuleFor(user => user.email).EmailAddress().WithMessage("Email Inválido");
-            RuleFor(user => user.passaword).NotNull();
+            RuleFor(user => user.password).NotNull();
         }
 
     }

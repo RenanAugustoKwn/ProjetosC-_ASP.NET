@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Common;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -14,11 +15,10 @@ namespace API.Controllers
         /// <summary>
         /// Autenticacao do usuario
         /// </summary>
-        /// <param name="username">Username do usuario</param>
-        /// <param name="password">Senha do usuario</param>
+        /// <param name="user">Username e Senha do usuario</param>
         /// <returns>OK</returns>
-        [HttpGet]
-        public IActionResult Login(string username, string password)
+        [HttpPost]
+        public IActionResult Login(UserModel user)
         {
             return Ok(new { response = "Está Logado"});
         }

@@ -4,12 +4,11 @@
         <name>API</name>
     </assembly>
     <members>
-        <member name="M:API.Controllers.UserController.Login(System.String,System.String)">
+        <member name="M:API.Controllers.UserController.Login(Common.UserModel)">
             <summary>
             Autenticacao do usuario
             </summary>
-            <param name="username">Username do usuario</param>
-            <param name="password">Senha do usuario</param>
+            <param name="user">Username e Senha do usuario</param>
             <returns>OK</returns>
         </member>
     </members>
