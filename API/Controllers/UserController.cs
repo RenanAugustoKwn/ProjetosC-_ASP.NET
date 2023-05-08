@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace API.Controllers
 {
-    [ApiController, Route("api/[controller]")]
-    [Consumes("application/json")]
+    [Route("api/[controller]")]
+    [ApiController]
     public class UserController : ControllerBase
     {
         /// <summary>
@@ -20,7 +20,11 @@ namespace API.Controllers
         [HttpPost]
         public IActionResult Login(UserModel user)
         {
-            return Ok(new { response = "Está Logado"});
+            if(user.password == "123")
+            {
+                return Ok(new { response = "OK" });
+            }
+            else return Ok(new { response = "Erro Senha Errada" });
         }
     }
 }
